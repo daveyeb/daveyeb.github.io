@@ -25,8 +25,10 @@
           if (response.status === "connected") {
             var accessToken = response.authResponse.accessToken;
             console.log(accessToken);
+            console.log(response);
           }
         });
+
       };
 
       (function (d, s, id) {
